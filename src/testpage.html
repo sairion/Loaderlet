@@ -3,18 +3,18 @@
 <head>	
 <title>Loaderlet Test Page</title>
 <style>
-	
+body{
 
+	font-family:Helvetica Neue, Helvetica, Arial, Verdana, Sans-serif;
+}
 </style>
 </head>
 <body>
 <h1>Loaderlet: A Simple Javascript Loader</h1>
 <h2>by Jay ho Lee</h2>
+<p><a href="https://github.com/sairion/Loaderlet">Project Page</a></p>
 <div>Test Page: Open your console and call function lodrlt: <em>lodrlt();</em></div>
-<p>You can drop this link<a href='javascript:(function(){var a=null,d=function(a){var a=b.tree[a].url,c=document.createElement("script");c.setAttribute("src",a);document.head.appendChild(c)},b={check:function(){this.availableAlready.pass=!0},availability:function(){},ask:function(){(a=window.prompt("Loading option:\r\r1.jQuery\r2.Zepto\r3.backbone\r4.underscore\r5.Mordernizer\r6.D3\r7.Raphael\r8.EaselJS\r"))?console.log("You have selected "+a+", sir."):alert(this+": invalid option or command.")},tree:{1:{modulename:"jQuery",
-Dependency:"no",version:"1.7.1",url:"https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"},2:{modulename:"Zepto",Dependency:"no",version:"0.8",url:"http://zeptojs.com/javascripts/zepto.min.js"},3:{modulename:"Backbone",Dependency:"Underscore",version:"1.7.1",url:"http://documentcloud.github.com/backbone/backbone-min.js"},4:{modulename:"Underscore",Dependency:"",version:"1.3.1",url:"http://documentcloud.github.com/underscore/underscore-min.js"},5:{modulename:"Mordernizer",Dependency:"No",
-version:"dev-2.0.6",url:"http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js"},6:{modulename:"D3",Dependency:"",version:"v2",url:"http://mbostock.github.com/d3/d3.v2.js"},7:{modulename:"Raphael",Dependency:"no",version:"2.0.2",url:"https://raw.github.com/DmitryBaranovskiy/raphael/master/raphael-min.js"},8:{modulename:"EaselJS",Dependency:"",version:"0.4",url:"https://raw.github.com/gskinner/EaselJS/master/lib/easel.js"},9:{modulename:"jQuery UI",Dependency:"",version:"",url:""}}};
-b.ask();a?d(a):console.log("process was terminated unexpectedly.");b=a=null})(window);' title="Loaderlet-v0.1">this link</a> to the bookmark bar, to push-load famous javascript libraries. such as:</p>
+<p>You can drop this link <em><a href='javascript:(function(){if(!lodrlt){var a=document.createElement("script");a.setAttribute("charset","UTF-8");a.setAttribute("src","https://raw.github.com/sairion/Loaderlet/master/src/loaderlet_v0_01_min.js?"+99999999*Math.random());document.body.appendChild(a)}else lodrlt()})(window);' title="Loaderlet-v0.1">Loaderlet</a></em> to the bookmark bar, to push-load famous javascript libraries. such as:</p>
 <ol>
 	<li>jQuery</li>
 	<li>Zepto</li>

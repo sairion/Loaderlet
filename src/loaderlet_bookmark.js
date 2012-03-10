@@ -1,5 +1,5 @@
 (function(window){
-	if(!lodrlt){
+	if(typeof(lodrlt)==="undefined"){
 	var l = document.createElement('script');
 	//l.setAttribute('type', 'text/javascript');
 	l.setAttribute('charset', 'UTF-8');

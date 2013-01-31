@@ -45,7 +45,7 @@ var loaderlet = {
         1:{ modulename:"jQuery",
             Dependency:null,
             version:"1.7.1",
-            url:"https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+            url:"http://code.jquery.com/jquery-1.9.0.js"
             },
         2:{ modulename:"Zepto",
             Dependency:null,
